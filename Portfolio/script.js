@@ -8,3 +8,26 @@
       }
     }
     type();
+
+
+    function toggleDarkMode() {
+      const body = document.body;
+      const toggleBtn = document.getElementById("darkModeToggle");
+      body.classList.toggle('dark');
+
+      toggleBtn.textContent = body.classList.contains('dark') ? "🌞" : "🌙";
+    }
+
+
+    const scrollBtn = document.getElementById("scrollBtn");
+    window.onscroll = function () {
+      scrollBtn.style.display = window.scrollY > 300 ? "block" : "none";
+    };
+
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+   
+
+
+   
