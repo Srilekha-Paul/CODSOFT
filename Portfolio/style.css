@@ -58,3 +58,28 @@ body.dark .project-card {
       margin: 0 auto;
       overflow: hidden;
 }
+.toggle-btn {
+      position: absolute;
+      top: none;
+      right: 20px;
+      background: none;
+      border: none;
+      font-size: 26px;
+      cursor: pointer;
+    }
+
+.resume-btn {
+      background: green; 
+      color: white;
+      padding: 10px 15px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      display: inline-block;
+      margin-top: 20px;
+    }
+
+body.dark .resume-btn {
+      background: #ff85a2;
+      color: black;
+    }
