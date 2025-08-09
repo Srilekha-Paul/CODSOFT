@@ -242,3 +242,13 @@ footer .socials a:hover {
     text-decoration: underline;
 }
 
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .section {
+        padding: 2rem 1rem;
+    }
+}
