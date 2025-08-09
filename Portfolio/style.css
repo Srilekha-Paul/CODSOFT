@@ -224,4 +224,21 @@ body.dark .scroll-btn {
     margin-top: 1rem;
     font-size: 0.95rem;
 }
+footer {
+    background-color: #e0709bee;
+    color: rgb(63, 14, 14);
+    text-align: center;
+    padding: 1.5rem 1rem;
+    margin-top: 3rem;
+}
+
+footer .socials a {
+    color: black;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+footer .socials a:hover {
+    text-decoration: underline;
+}
 
