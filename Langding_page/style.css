@@ -44,3 +44,22 @@ body {
     font-size: 1.8rem;
     cursor: pointer;
 }
+/* Mobile menu */
+@media (max-width: 768px) {
+    #menu-btn {
+        display: block;
+    }
+    .nav_links {
+        display: none;
+        flex-direction: column;
+        background: #ff914d;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        padding: 1rem;
+        border-radius: 8px;
+    }
+    .nav_links.open {
+        display: flex;
+    }
+}
