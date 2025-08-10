@@ -95,3 +95,12 @@ body {
     text-decoration: none;
     transition: background 0.3s ease;
 }
+.btn:hover {
+    background: #e65c00;
+}
+
+.hero img {
+    width: 300px;
+    max-width: 100%;
+}
+
