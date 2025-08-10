@@ -3,64 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food Landing Page</title>
+    <title>Burger Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-
-    <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
-    rel="stylesheet"
-/>
 </head>
 <body>
 
-    <header class="header">
-        <nav>
-            <div class="nav_header">
-                <div class="nav_logo">
-                    <a href="#">
-                         <img src="assets/logo-dark.png" alt="Logo" class="nav_logo_dark">
-                         <img src="assets/logo-white.png" alt="Logo" class="nav_logo_white">
-                    </a>
-                </div>
+<header class="header">
+    <nav class="navbar">
+        <h1 class="logo">🍔 Burger<span>House</span></h1>
+        <div id="menu-btn"><i class="ri-menu-fill"></i></div>
+        <ul id="nav_links" class="nav_links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#special">Special</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-                <div class="nav_manu_btn" id="menu-btn">
-                    <i class="ri-menu-fill"></i>
-                     
-                </div>
-
-                <ul class="nav_links" id="nav_links">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#special">Special</a></li>
-                    <li><a href="#menu">menu</a></li>
-                    <li><a href="#contact">contact</a></li>
-                </ul>
-            </div>
-        </nav>
-
-        <div class="section_container header
-        _container" id="home">
-          
-        <div class="header_image">
-            <img src="assets/header.png" alt="header">
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h2>Best Burgers in Town</h2>
+            <p>Juicy, cheesy, and made with love — taste the difference!</p>
+            <a href="#menu" class="btn">Order Now</a>
         </div>
-      
-          <div class="header_content">
-            <h2>IT IS GOOD TIME FOR GREATE TEST OF BURGER</h2>
-            <h1>BURGER</h1> 
-            <br>
-            <span>WEEK</span>
-          </div>
-    
-    
-    </div>
+        <img src="assets/header.png"Burger">
+    </section>
+</header>
 
-    </header>
-
-    
-
-
-
-    
+<script src="script.js"></script>
 </body>
-  <script src="script.js"></script>
 </html>
